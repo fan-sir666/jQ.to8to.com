@@ -1,0 +1,24 @@
+@font-face {
+  font-family: 'iconfont';
+  src: url('iconfont.eot');
+  src: url('iconfont.eot?#iefix') format('embedded-opentype'),
+    url('iconfont.woff2') format('woff2'),
+    url('iconfont.woff') format('woff'),
+    url('iconfont.ttf') format('truetype'),
+    url('iconfont.svg#iconfont') format('svg');
+}
+
+/* 顶部登录字体图标 */
+.registerL-icon {
+  font-family: 'iconfont';
+  font-size: 16px;
+  color: #0cb46a;
+}
+
+.registerY-icon {
+  font-family: 'iconfont';
+}
+
+.registerS-icon {
+  font-family: 'iconfont';
+}

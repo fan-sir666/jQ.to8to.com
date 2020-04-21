@@ -1,0 +1,152 @@
+/* 顶部登录栏 */
+.register {
+    height: 36px;
+    line-height: 36px;
+    background-color: #f5f5f5;
+}
+
+.register-l {
+    position: relative;
+    float: left;
+}
+
+.registerL-t {
+    position: absolute;
+    width: 93px;
+    padding: 0 5px;
+    z-index: 3;
+}
+
+.registerL-t.active {
+    background-color: #f4f4f4;
+    border: 1px solid #d8d8d8;
+    border-top: none;
+    border-bottom: 1px solid #f4f4f4;
+}
+
+.registerL-t>a {
+    color: #0cb46a;
+}
+
+.registerL-b {
+    position: absolute;
+    top: 36px;
+    width: 406px;
+    border: 1px solid #d8d8d8;
+    display: none;
+}
+
+.registerL-s {
+    height: 38px;
+    background-color: #f4f4f4;
+    border-bottom: 1px solid #d8d8d8;
+}
+
+.registerL-s h3 {
+    margin-left: 26px;
+    padding-left: 8px;
+    width: 62px;
+    border-bottom: 2px solid #00af63;
+}
+
+.registerL-x {
+    padding-left: 36px;
+    padding-bottom: 18px;
+}
+
+.registerL-x ul {
+    margin-top: 18px;
+}
+
+.registerL-x li {
+    float: left;
+    margin-right: 34px;
+}
+
+.registerL-x a {
+    display: inline-block;
+    color: #666666;
+}
+
+.registerL-x a:hover {
+    color: #00af63;
+}
+
+.register-y {
+    float: right;
+}
+
+.register-y>a,
+.register-y>div {
+    float: left;
+    font-size: 12px;
+    color: #999999;
+}
+
+.register-y>a:nth-child(2) {
+    margin-left: 26px;
+    margin-right: 15px;
+}
+
+.register-y>div {
+    position: relative;
+    padding: 0 13px;
+}
+
+.register-y>div::after {
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: -1px;
+    width: 1px;
+    height: 14px;
+    background-color: #dcdcdc;
+}
+
+.register-y>div:nth-last-child(2) a {
+    color: #999999;
+}
+
+.register-y>div:last-child {
+    color: #ff5a00;
+}
+
+.register-y>div:last-child i:last-child {
+    color: #999999;
+}
+
+.register-cont {
+    position: absolute;
+    left: 0;
+    border: 1px solid #dcdcdc;
+    border-top: none;
+    display: none;
+}
+
+.register-cont li a {
+    display: block;
+    width: 100px;
+    text-align: center;
+    color: #999999;
+}
+
+.register-cont li a:hover {
+    color: #00af63;
+}
+
+.register-two .register-cont li a {
+    width: 88px;
+}
+
+.register-three .register-cont li a {
+    width: 88px;
+}
+
+.register-y>.register-one.active,
+.register-y>.register-two.active,
+.register-y>.register-three.active {
+    background-color: #fff;
+    border: 1px solid #dcdcdc;
+    border-top: none;
+    border-bottom: none;
+}
