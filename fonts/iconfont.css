@@ -7,18 +7,3 @@
     url('iconfont.ttf') format('truetype'),
     url('iconfont.svg#iconfont') format('svg');
 }
-
-/* 顶部登录字体图标 */
-.registerL-icon {
-  font-family: 'iconfont';
-  font-size: 16px;
-  color: #0cb46a;
-}
-
-.registerY-icon {
-  font-family: 'iconfont';
-}
-
-.registerS-icon {
-  font-family: 'iconfont';
-}
