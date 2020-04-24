@@ -20,7 +20,36 @@
 
 /* 版心 */
 
-.w {
+.container {
+    width: 1464px;
     margin: 0 auto;
-    width: 1460px;
+}
+
+.w {
+    position: relative;
+}
+
+/* 通用标题 */
+.headline {
+    height: 134px;
+    padding-top: 86px;
+    font-size: 46px;
+    text-align: center;
+    /* background-color: #ccc; */
+}
+
+.headline img {
+    width: 60px;
+    height: 3px;
+    margin-bottom: 16px;
+}
+
+.headline span {
+    margin: 0 40px;
+}
+
+/* 通用广告 */
+.advertisement {
+    height: 140px;
+    padding: 40px 0;
 }
