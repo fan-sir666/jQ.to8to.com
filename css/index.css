@@ -1078,3 +1078,334 @@
 .rendering-btm-right img:last-child {
     height: 328px;
 }
+
+/* 视频区域 */
+.video {
+    height: 780px;
+    padding-top: 118px;
+    background: transparent url(../images/video_bj.jpg) no-repeat;
+}
+
+.video-l {
+    float: left;
+}
+
+.video-y {
+    float: right;
+    padding: 46px 40px 0;
+    width: 494px;
+    height: 543px;
+    background-color: #ffffff;
+    position: relative;
+}
+
+/* 找建材 */
+.building {
+    height: 792px;
+    background-color: #fff;
+}
+
+.building .rendering-btm {
+    height: 466px;
+    background-color: #fff;
+}
+
+.building .rendering-btm>div {
+    float: left;
+    width: 480px;
+    height: 358px;
+    text-align: center;
+    position: relative;
+    margin-right: 10px;
+}
+
+.building .rendering-btm>div>img {
+    width: 480px;
+    height: 358px;
+    margin-bottom: 0;
+}
+
+.building .rendering-btm>div>h3 {
+    position: absolute;
+    top: 52px;
+    left: 50%;
+    margin-left: -10px;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.building .rendering-btm>div:nth-child(1)>h3 {
+    margin-left: -48px;
+}
+
+.building .rendering-btm>div:nth-child(1)>span {
+    margin-left: -112px;
+}
+
+.building .rendering-btm>div>span {
+    position: absolute;
+    top: 104px;
+    left: 50%;
+    margin-left: -60px;
+    font-size: 18px;
+}
+
+.building .rendering-btm>div:nth-child(3) {
+    margin-right: 0;
+}
+
+.building .rendering-btm>div:nth-child(3)>div:first-child {
+    position: relative;
+    height: 175px;
+    margin-bottom: 8px;
+    background-color: #ccc;
+}
+
+.building .rendering-btm>div:nth-child(3)>div:last-child {
+    position: relative;
+    height: 175px;
+    background-color: #ccc;
+}
+
+.building .rendering-btm>div:nth-child(3)>div>img {
+    width: 480px;
+    height: 175px;
+    margin-bottom: 0;
+}
+
+.building .rendering-btm>div:nth-child(3)>div>h3 {
+    position: absolute;
+    top: 53px;
+    left: 31px;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.building .rendering-btm>ul {
+    float: left;
+    height: 108px;
+}
+
+.building .rendering-btm>ul img {
+    margin-bottom: 0;
+}
+
+.building .rendering-btm>ul li {
+    float: left;
+    width: 186px;
+    position: relative;
+    margin: 11px 38px;
+}
+
+/* 了解土巴兔 */
+#realize {
+    background-color: #f5f5f5;
+}
+
+#realize .rendering-btm {
+    margin-top: 0;
+    background-color: #f5f5f5;
+}
+
+#realize .rendering-btm ul li {
+    float: left;
+    width: 476px;
+    margin: 0;
+    margin-right: 13px;
+    overflow: hidden;
+}
+
+#realize .rendering-btm ul li:last-child {
+    margin-right: 0;
+}
+
+#realize .rendering-btm-s>img {
+    width: 476px;
+    height: 300px;
+}
+
+/* 缩放效果 */
+#realize .rendering-btm ul li:hover {
+    transition: all 0.5s;
+    box-shadow: 0 15px 30px rgba(105, 100, 109, .3);
+    transform: translate3d(0, -4px, 0);
+}
+
+#realize .rendering-btm ul li:hover .rendering-btm-s>p {
+    transition: all 0.5s;
+    margin-top: 30px;
+}
+
+#realize .rendering-btm ul li:hover .rendering-btm-s>img {
+    transition: all 0.5s;
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+#realize .rendering-btm-s>p {
+    width: 476px;
+    padding-left: 22px;
+    font-size: 18px;
+    color: #666;
+    border-left: 1px solid #e0e0e0;
+    border-right: 1px solid #e0e0e0;
+    line-height: 30px;
+}
+
+#realize .rendering-btm-x {
+    width: 476px;
+    height: 70px;
+    line-height: 70px;
+    padding-left: 22px;
+    border: 1px solid #e0e0e0;
+}
+
+#realize .rendering-btm-x>img {
+    width: 76px;
+    height: 30px;
+    vertical-align: middle;
+}
+
+#realize .rendering-btm-x>i {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 14px 0 226px;
+    width: 34px;
+    height: 34px;
+    background: url(../images/sprite_3.png) -1078px -622px;
+}
+
+#realize .rendering-btm-x>s {
+    font-size: 16px;
+    color: #999;
+}
+
+/* 友链合作 */
+.cooperation>img {
+    width: 1902px;
+    height: 220px;
+}
+
+.cooperation-l>img {
+    position: absolute;
+    width: 150px;
+    height: 214px;
+    top: -217px;
+}
+
+.cooperation-l>h3 {
+    position: absolute;
+    top: -174px;
+    left: 178px;
+    font-size: 24px;
+    color: #fff;
+}
+
+.cooperation-l>span {
+    position: absolute;
+    top: -134px;
+    left: 178px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.cooperation>.container>img {
+    position: absolute;
+    top: -182px;
+    right: 0;
+}
+
+.cooperation-x {
+    position: relative;
+    top: -3px;
+    height: 155px;
+    background-color: #1f1f1f;
+}
+
+.cooperation-x img {
+    position: absolute;
+    top: 40px;
+}
+
+/* 底部区域 */
+
+footer {
+    margin-top: -3px;
+    height: 202px;
+    background-color: #1f1f1f;
+    font-size: 14px;
+    padding: 22px 230px 0 234px;
+    border-top: 1px solid #313131;
+}
+
+.di-l {
+    float: left;
+    color: #676b6c;
+    vertical-align: top;
+}
+
+.di-l ul li {
+    float: left;
+}
+
+.di-l ul li a {
+    display: inline-block;
+    margin-right: 16px;
+    color: #fff;
+}
+
+.di-l h4 {
+    height: 76px;
+    line-height: 76px;
+    color: #676b6c;
+}
+
+.di-l a {
+    color: #676b6c;
+}
+
+.di-l a img {
+    vertical-align: bottom;
+}
+
+.di-l a:nth-last-child(2) img {
+    margin: 0 10px;
+}
+
+.di-l span:nth-last-child(4) a {
+    margin-left: 25px;
+}
+
+.di-l a:last-child img {
+    position: relative;
+    top: 4px;
+}
+
+footer .di-y:nth-last-child(2) {
+    float: left;
+}
+
+footer .di-y:nth-last-child(1) {
+    float: right;
+}
+
+footer .di-y {
+    width: 102px;
+    height: 102px;
+    text-align: center;
+    color: #fff;
+}
+
+footer .di-y h3 {
+    font-weight: normal;
+}
+
+.di-y img {
+    width: 102px;
+    height: 102px;
+    margin-bottom: 10px;
+}
+
+.di-y:nth-last-child(2) {
+    margin-left: 230px;
+}

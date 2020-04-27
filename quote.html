@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/quote-common.css">
+    <link rel="stylesheet" href="./css/quote.css">
+</head>
+
+<body>
+    <!-- 顶部导航 -->
+    <div class="top-nav">
+        <div class="container clearfix">
+            <div class="top-nav-left">
+                <a href="./index.html"><img src="./images/loog.png" alt=""><span>土巴兔</span></a>
+                <a href="#">效果图</a>
+                <a href="#">装修攻略</a>
+                <a href="#">设计与报价</a>
+                <a href="#">装修公司</a>
+                <a href="#">家居商城</a>
+            </div>
+            <div class="top-nav-right">
+                <a href="#">登录</a>
+                <a href="#">注册</a>
+                <a href="#">返回官方首页</a>
+            </div>
+        </div>
+    </div>
+    <!-- 估价区域 -->
+    <div class="assess">
+        <img src="./images/banner.jpg" alt="">
+        <div class="container">
+            <div class="suan clearfix">
+                <div class="assess-l">
+                    <h3>装修计算器<span>今日已有&nbsp;1884&nbsp;位业主获取了装修预算</span></h3>
+                    <div><span>所在城市: *</span><select name="" id="">
+                        <option value="">省/市</option>
+                        <option value="">A&nbsp;安徽</option>
+                        <option value="">B&nbsp;北京</option>
+                        <option value="">C&nbsp;重庆</option>
+                        <option value="">F&nbsp;福建</option>
+                        <option value="">G&nbsp;广西</option>
+                        <option value="">G&nbsp;贵州</option>
+                        <option value="">G&nbsp;广东</option>
+                        <option value="">G&nbsp;甘肃</option>
+                        <option value="">H&nbsp;海南</option>
+                    </select><select name="" id="">
+                        <option value="">市/地区</option>
+                        <option value="">阜阳</option>
+                        <option value="">合肥</option>
+                        <option value="">芜湖</option>
+                        <option value="">马鞍山</option>
+                        <option value="">黄山</option>
+                    </select></div>
+                    <div><span>房屋面积: *</span><input type="text" placeholder="输入您的房屋面积"><i>m<sup>2</sup></i></div>
+                    <div><span>房屋类型: *</span><input type="radio" name="room" checked="checked"> 新房<input type="radio" name="room"> 二手房/老房
+                    </div>
+                    <div><span>房屋户型: *</span> <select name="" id="">
+                        <option value="">&nbsp;&nbsp;一室&nbsp; 一厅&nbsp; 一厨&nbsp; 一卫&nbsp; 一阳台</option>
+                    </select></div>
+                    <div><span>手机号码: *</span><input type="text" value="报价结果将发送到您手机上" readonly></div>
+                    <div> <input type="checkbox" checked="checked"><a href="#">我已阅读并接受《服务须知》</a></div>
+                    <p>为了您的权益,您的隐私将被严格保密。</p>
+                </div>
+                <div class="assess-cen">
+                    <a href="#">开始<br>计算<i></i></a>
+                    <img src="./images/b-xian.png" alt="">
+                </div>
+                <div class="assess-y">
+                    <h3>您家的装修预算 <span id="datum1"></span> <s>元</s></h3>
+                    <div class="assess-y-minute">
+                        <h5>材料费:<span id="datum2"></span>元</h5>
+                        <h5>人工费:<span id="datum3"></span>元</h5>
+                        <h5>设计费:<span id="datum4"></span>元</h5>
+                        <h5>质检费:<span id="datum5"></span>元</h5>
+                    </div>
+                    <p>装修预算数据由土巴兔历史服务<i>2900万</i>业主装修数据、各大城市装修公司合同数据经过大数据实时分析计算</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 底部区域 -->
+    <footer>
+        <div class="di-l">
+            <ul class="clearfix">
+                <li><a href="#">关于我们 </a></li>
+                <li><a href="#">联系我们</a></li>
+                <li><a href="#">媒体报道</a></li>
+                <li><a href="#">帮助中心</a></li>
+                <li><a href="#">意见反馈</a></li>
+                <li><a href="#">校园招聘</a></li>
+                <li><a href="#">高薪聘请</a></li>
+                <li><a href="#">公示公告</a></li>
+                <li><a href="#">商务合作</a></li>
+                <li><a href="#">侵权投诉</a></li>
+            </ul>
+            <h4>免责声明: 本网站部分内容由用户自行上传,如权力人发现存在误传其作品情形,请及时与本站联系。&copy;2018 Tubatu.com土巴兔装修网和设计师社区保留所有版权</h4>
+            <span>土巴兔装修网<a href="#">增值电信业务许可证：粤B2-20120566号</a></span>
+            <a href="#">粤ICP备08125558号</a>
+            <a href="#"><img src="./images/d1.png" alt=""><span>粤公网安备 44030502001458号</span></a>
+            <a href="#"><img src="./images/d2.png" alt=""></a>
+        </div>
+        <div class="di-y">
+            <img src="./images/tbtAPP.jpg" alt="">
+            <h3>土巴兔APP</h3>
+        </div>
+        <div class="di-y">
+            <img src="./images/wx.jpg" alt="">
+            <h3>微信公众号</h3>
+        </div>
+    </footer>
+    <script src="./js/quote.js"></script>
+</body>
+
+</html>

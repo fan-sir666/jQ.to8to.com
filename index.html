@@ -7,7 +7,8 @@
     <title>Document</title>
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/common.css">
-    <link rel="stylesheet" href="./fonts/iconfont.css">
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/player.css">
     <link rel="stylesheet" href="./css/index.css">
 </head>
 
@@ -418,7 +419,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="./quote.html">
                             <!-- <h3><span></span></h3> -->
                             <img src="./images/business_7.jpg" alt="">
                         </a>
@@ -794,8 +795,187 @@
                 </div>
             </div>
         </div>
+        <!-- 视频区域 -->
+        <div class="video">
+            <div class="container clearfix">
+                <div class="video-l">
+                    <div class="player">
+                        <!-- video的属性 width height -->
+                        <!-- 给视频加一个封面 
+                        用一个属性: poster=src
+                        封面都是后台抽取视频中的某一帧,添加到poster属性中的
+                    -->
+                        <video src="./movie/sp.mp4" width="100%" height="100%" poster="./upload/firstimage.jpg">您的浏览器版本过低,请升级浏览器</video>
+                        <!-- 控制栏 -->
+                        <div class="controls">
+                            <!-- 播放按钮 icon  i -->
+                            <i class="play-btn fa fa-play-circle"></i>
+                            <!-- 进度条 -->
+                            <!-- <progress value="80" max="100"></progress> -->
+                            <div class="progress">
+                                <div class="progress-bar"></div>
+                            </div>
+                            <!-- 时间显示 -->
+                            <div class="time">
+                                <span class="current">00:00:00</span>/<span class="total">00:00:00</span>
+                            </div>
+                            <!-- 全屏按钮 -->
+                            <i class="fullscreen fa fa-expand"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-y">
+                    <img src="./images/video-y_t.jpg" alt="">
+                    <i></i>
+                </div>
+            </div>
+        </div>
+        <div class="container w">
+            <!-- 通用广告 -->
+            <div class="advertisement">
+                <img src="./images/gg_2.jpg" alt="">
+            </div>
+            <!-- 找建材 -->
+            <div class="building rendering jian">
+                <div class="container w">
+                    <!-- 通用标题 -->
+                    <div class="headline">
+                        <img src="./images/line_h.png" alt="">
+                        <span>找建材</span>
+                        <img src="./images/line_h.png" alt="">
+                    </div>
+                    <div class="rendering-cont-cen">
+                        <h3>线上超值低价，线下品质服务</h3>
+                        <a href="#">油漆涂料</a>
+                        <a href="#">瓷砖</a>
+                        <a href="#">地板</a>
+                        <a href="#">衣柜</a>
+                        <a href="#">橱柜</a>
+                        <a href="#">厨电</a>
+                        <a href="#">全部品类</a>
+                    </div>
+                </div>
+                <div class="rendering-btm clearfix">
+                    <div>
+                        <h3>全屋定制</h3>
+                        <span>空间省心定制, 优惠商家严选</span>
+                        <img src="./upload/building-s_1.png" alt="">
+                    </div>
+                    <div>
+                        <h3>地板</h3>
+                        <span>板材严控, 品质保证</span>
+                        <img src="./upload/building-s_2.png" alt="">
+                    </div>
+                    <div>
+                        <div>
+                            <h3>成品家居</h3>
+                            <img src="./upload/building-s_3.png" alt="">
+                        </div>
+                        <div>
+                            <h3>电器</h3>
+                            <img src="./upload/building-s_4.png" alt="">
+                        </div>
+                    </div>
+                    <ul>
+                        <li><img src="./upload/building-x_1.png" alt=""></li>
+                        <li><img src="./upload/building-x_2.jpg" alt=""></li>
+                        <li><img src="./upload/building-x_3.jpg" alt=""></li>
+                        <li><img src="./upload/building-x_4.jpg" alt=""></li>
+                        <li><img src="./upload/building-x_5.jpg" alt=""></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- 了解土巴兔 -->
+        <div id="realize" class="building rendering">
+            <div class="container">
+                <!-- 通用标题 -->
+                <div class="headline">
+                    <img src="./images/line_h.png" alt="">
+                    <span>了解土巴兔</span>
+                    <img src="./images/line_h.png" alt="">
+                </div>
+                <div class="rendering-cont-cen">
+                    <h3>一线媒体强势报道, 全面解析土巴兔模式</h3>
+                </div>
+                <div class="rendering-btm clearfix">
+                    <ul>
+                        <li>
+                            <div class="rendering-btm-s">
+                                <img src="./upload/realize_1.jpg" alt="">
+                                <p>土巴兔王国彬获评2018年度十大创业家：重塑产业在于创造价值</p>
+                            </div>
+                            <div class="rendering-btm-x"><img src="./upload/realize-x_1.png" alt=""><i></i><s>2019-2-19</s>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="rendering-btm-s">
+                                <img src="./upload/realize_2.jpg" alt="">
+                                <p>土巴兔徐建华：“用户价值”导向是企业长期生存和创新的根基</p>
+                            </div>
+                            <div class="rendering-btm-x"><img src="./upload/realize-x_1.png" alt=""><i></i><s>2019-2-19</s>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="rendering-btm-s">
+                                <img src="./upload/realize_3.jpg" alt="">
+                                <p>互联网家装平台如何赋能行业？ 土巴兔通过技术手段推动家装行业升级</p>
+                            </div>
+                            <div class="rendering-btm-x"><img src="./upload/realize-x_2.png" alt=""><i></i><s>2019-2-19</s>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- 友链合作 -->
+        <div class="cooperation">
+            <img src="./images/cooperation-bj.jpg" alt="">
+            <div class="container w">
+                <div class="cooperation-l">
+                    <img src="./images/cooperation_dy.png" alt="">
+                    <h3>土巴兔专注装修10年</h3>
+                    <span>始 终 为 用 户 创 造 价 值</span>
+                </div>
+                <img src="./images/cooperation-y.jpg" alt="">
+            </div>
+        </div>
+        <div class="cooperation-x">
+            <div class="container">
+                <img src="./images/cooperation-x.jpg" alt="">
+            </div>
+        </div>
     </main>
-    <footer></footer>
+    <!-- 底部区域 -->
+    <footer>
+        <div class="di-l">
+            <ul class="clearfix">
+                <li><a href="#">关于我们 </a></li>
+                <li><a href="#">联系我们</a></li>
+                <li><a href="#">媒体报道</a></li>
+                <li><a href="#">帮助中心</a></li>
+                <li><a href="#">意见反馈</a></li>
+                <li><a href="#">校园招聘</a></li>
+                <li><a href="#">高薪聘请</a></li>
+                <li><a href="#">公示公告</a></li>
+                <li><a href="#">商务合作</a></li>
+                <li><a href="#">侵权投诉</a></li>
+            </ul>
+            <h4>免责声明: 本网站部分内容由用户自行上传,如权力人发现存在误传其作品情形,请及时与本站联系。&copy;2018 Tubatu.com土巴兔装修网和设计师社区保留所有版权</h4>
+            <span>土巴兔装修网<a href="#">增值电信业务许可证：粤B2-20120566号</a></span>
+            <a href="#">粤ICP备08125558号</a>
+            <a href="#"><img src="./images/d1.png" alt=""><span>粤公网安备 44030502001458号</span></a>
+            <a href="#"><img src="./images/d2.png" alt=""></a>
+        </div>
+        <div class="di-y">
+            <img src="./images/tbtAPP.jpg" alt="">
+            <h3>土巴兔APP</h3>
+        </div>
+        <div class="di-y">
+            <img src="./images/wx.jpg" alt="">
+            <h3>微信公众号</h3>
+        </div>
+    </footer>
     <script src="./lib/jquery-3.4.1.min.js"></script>
     <script src="./js/index.js"></script>
 </body>

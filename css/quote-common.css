@@ -1,0 +1,46 @@
+/* 版心 */
+.container {
+    width: 1464px;
+    margin: 0 auto;
+    position: relative;
+    /* 辅助 */
+    /* background-color: rgba(255, 255, 255, 0.5); */
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* 清除浮动 */
+.clearfix:before,
+.clearfix:after {
+    content: '';
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* 定义动画 */
+@keyframes circle {
+    from {
+        /* border: 0px solid rgba(255, 0, 255, 1); */
+
+        border: 6px solid rgba(254, 237, 219, 0.4);
+    }
+
+    50% {
+        /* border: 10px solid rgba(255, 0, 255, 0.3); */
+        border: 13px solid rgba(254, 237, 219, 0.8);
+
+    }
+
+    100% {
+        border: 20px solid rgba(254, 237, 219, 0.4);
+    }
+}
