@@ -122,7 +122,7 @@
     padding: 0 14px;
     height: 35px;
     color: #999;
-    z-index: 100;
+    z-index: 177;
 }
 
 .register-right>div::before {
@@ -263,7 +263,7 @@
 .search {
     position: relative;
     height: 70px;
-    /* background-color: blue; */
+    background-color: #fff;
 }
 
 .search-left {
@@ -346,7 +346,7 @@
     left: 0;
     width: 100%;
     background-color: #ffffff;
-    z-index: 66;
+    z-index: 166;
     display: none;
 }
 

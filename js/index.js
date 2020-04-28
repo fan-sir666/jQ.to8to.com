@@ -37,6 +37,28 @@ $('.search-item').on('mouseleave', function() {
 })
 
 
+/* 顶部固定功能 */
+let searchTop = $('.search').offset().top;
+$(window).on('scroll', function() {
+    if ($(this).scrollTop() >= searchTop) {
+        $('.search').css({
+            'position': 'fixed',
+            'top': 0,
+            'width': '100%',
+            'zIndex': 166
+        })
+        
+
+    } else {
+        $('.search').css({
+            'position': 'relative',
+            'top': 0,
+            'zIndex': 166
+        })
+    }
+})
+
+
 var index = 0;
 $('.arrow-right').click(function() {
     index++;
