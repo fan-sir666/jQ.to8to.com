@@ -4,10 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="./css/normalize.css">
-    <link rel="stylesheet" href="./css/company-commom.css">
-    <link rel="stylesheet" href="./css/company.css">
+    <link rel="stylesheet" href="./css/rendering3-common.css">
+    <link rel="stylesheet" href="./css/rendering-index3.css">
 </head>
 
 <body>
@@ -368,224 +369,291 @@
             </div>
         </div>
     </header>
-    <main>
-        <div class="container clearfix">
-            <!-- 左侧选项区 -->
-            <div class="company-left">
-                <div class="company-t">
-                    <ul class="clearfix">
-                        <li><a href="#">
-                            深圳装修
-                        </a></li>
-                        <li><a href="#">
-                            深圳装修公司
-                        </a></li>
-                        <li><span>共7276结果</span></li>
-                    </ul>
-                    <ul class="company-t-area">
-                        <li>
-                            <span>施工方式</span>
-                            <a href="">全部</a>
-                            <a href="">半包装修</a>
-                            <a href="">全包装修</a>
-                            <a href="">纯设计</a>
-                            <a href="">软装</a>
-                            <a href="">全屋装修</a>
-                        </li>
-                        <li>
-                            <span>类型</span>
-                            <a href="">全部</a>
-                            <a href="">家装</a>
-                            <a href="">工装</a>
-                        </li>
-                        <li>
-                            <span>商户位置</span>
-                            <a href="">全部</a>
-                            <a href="">南山区</a>
-                            <a href="">宝安区</a>
-                            <a href="">福田区</a>
-                            <a href="">龙岗区</a>
-                            <a href="">罗湖区</a>
-                            <a href="">盐田区</a>
-                            <a href="">龙华区</a>
-                            <a href="">光明区</a>
-                            <a href="">平山区</a>
-                        </li>
-                        <li>
-                            <span>服务保障</span>
-                            <a href="">全部</a>
-                            <a href="">
-                                <i></i> 先装修后支付
-                            </a>
-                            <a href="">
-                                <i></i> 延期保赔
-                            </a>
-                            <a href="">
-                                <i></i> 装修分期
-                            </a>
-                            <a href="">
-                                <i></i> 土巴兔质检
-                            </a>
-                        </li>
-                    </ul>
-                    <ul class="company-t-area active">
-                        <li>
-                            <span>承接价位</span>
-                            <a href="">全部</a>
-                            <a href="">
-                                <i></i> 3万以下
-                            </a>
-                            <a href="">
-                                <i></i> 3-5万
-                            </a>
-                            <a href="">
-                                <i></i> 5-8万
-                            </a>
-                            <a href="">
-                                <i></i> 8-12万
-                            </a>
-                            <a href="">
-                                <i></i> 12-18万
-                            </a>
-                            <a href="">
-                                <i></i> 18-30万
-                            </a>
-                            <a href="">
-                                <i></i> 30-100万
-                            </a>
-                            <a href="">
-                                <i></i> 100万以上
-                            </a>
-                        </li>
-                        <li>
-                            <span>服务区域</span>
-                            <a href="">全部</a>
-                            <a href="">南山区</a>
-                            <a href="">宝安区</a>
-                            <a href="">福田区</a>
-                            <a href="">龙岗区</a>
-                            <a href="">罗湖区</a>
-                            <a href="">盐田区</a>
-                            <a href="">龙华区</a>
-                            <a href="">光明区</a>
-                            <a href="">平山区</a>
-                        </li>
-                    </ul>
-                    <a href="#">更多<i></i></a>
+    <!-- 主体 -->
+    <div class="container">
+        <div class="container-btm clearfix">
+            <main>
+                <!-- 选项卡 -->
+                <ul class="option">
+                    <li>
+                        <div class="option-l">分类</div>
+                        <div class="option-y">
+                            <span>全部</span>
+                            <span>全屋定制</span>
+                            <span>装修主材</span>
+                            <span>成品家具</span>
+                            <span>家饰家纺</span>
+                            <span>电器</span>
+                            <span>家居服务</span>
+                            <span>家居卖场</span>
+                            <span>辅材</span>
+                            <span>虚拟商品</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="option-l">服务区域</div>
+                        <div class="option-y">
+                            <span>全部</span>
+                            <span>罗湖区</span>
+                            <span>福田区</span>
+                            <span>南山区</span>
+                            <span>宝安区</span>
+                            <span>龙岗区</span>
+                            <span>盐田区</span>
+                            <span>龙华区</span>
+                            <span>坪山区</span>
+                            <span>光明区</span>
+                        </div>
+                    </li>
+                </ul>
+                <!-- 默认排序 -->
+                <div class="rank">
+                    <span>默认排序</span>
+                    <span>免费量房设计</span>
+                    <span>买贵包赔</span>
+                    <span>到店有礼</span>
+                    <span>优惠劵</span>
                 </div>
-                <div class="company-x">
-                    <div><img src="./images/company-x.png" alt=""></div>
-                    <div class="firm">
-                        <ul class="clearfix">
-                            <li>
-                                <img src="./images/firm.png" alt="">
-                            </li>
-                            <li>
-                                <h2>深圳市佳美域品牌装饰设计工程有限公司</h2>
-                                <div class="firm_one">
-                                    <span>
-                                            <i></i>
-                                            <i></i>
-                                            <i></i>
-                                            <i></i>
-                                            <i></i>
-                                    </span>
-                                    <span>6995条</span>
-                                    <span>近期签约544户&nbsp;&nbsp;&nbsp;&nbsp; 均价5-8万</span>
-                                    <span>日记218篇</span>
-                                </div>
-                                <div class="firm_two">
-                                    <span>土巴兔2019年度领军品牌</span>
-                                    <span>先装修后支付</span>
-                                    <span>装修分期</span>
-                                    <span>正品辅材</span>
-                                    <span>健康守护</span>
-                                </div>
-                                <div class="firm_three">
-                                    <i></i>
-                                    <span>到店送精美小礼品</span>
-                                </div>
-                                <div>
-                                    <img src="./images/firm_1.jpg" alt="">
-                                    <img src="./images/firm_2.jpg" alt="">
-                                    <img src="./images/firm_3.jpg" alt="">
-                                    <img src="./images/firm_4.jpg" alt="">
-                                </div>
-                                <a href="#"><i></i>联系商家</a>
-                            </li>
-                        </ul>
+                <!-- 公司 -->
+                <div class="company">
+                    <div class="company-cont clearfix">
+                        <div class="company-l">
+                            <img src="./images/company_1.jpg" alt="">
+                        </div>
+                        <div class="company-c">
+                            <div class="company-title clearfix">
+                                <h3>深圳市国人检测有限公司</h3>
+                                <img src="./images/hg.png" alt="">
+                                <span>甲醛检测处理</span>
+                            </div>
+                            <div class="company-cen">
+                                <p>地址：深圳市龙岗区坂田街道五和大道南41号和磡工业区B区1号厂房301</p>
+                            </div>
+                            <div class="company-btm">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                        <div class="company-y">
+                            <img src="./images/rating_3.png" alt=""><s>5</s>
+                        </div>
                     </div>
-                    <div class="firm-cont">
-                        <img src="./images/firm_tu_2.jpg" alt="">
-                        <img src="./images/firm_tu_3.jpg" alt="">
-                        <img src="./images/firm_tu_4.jpg" alt="">
-                        <img src="./images/firm_tu_5.jpg" alt="">
-                        <img src="./images/firm_tu_1.jpg" alt="">
-                        <img src="./images/firm_tu_4.jpg" alt="">
-                        <img src="./images/firm_tu_2.jpg" alt="">
-                        <img src="./images/firm_tu_6.jpg" alt="">
+                    <div class="company-cont-te clearfix">
+                        <div class="company-l">
+                            <img src="./images/company_2.jpg" alt="">
+                        </div>
+                        <div class="company-c">
+                            <div class="company-title clearfix">
+                                <h3>深圳市南山区沃根体验店</h3>
+                                <span>全屋定制</span>
+                            </div>
+                            <div class="company-cen">
+                                <p>地址：滨海大道万象新园国安居二楼B043-B045号 </p>
+                            </div>
+                            <div class="company-btm">
+                                <span>买贵包赔</span>
+                                <span>免费停车</span>
+                            </div>
+                        </div>
+                        <div class="company-y">
+                            <img src="./images/rating_3.png" alt=""><s>5</s>
+                        </div>
+                    </div>
+                    <div class="company-cont-te clearfix">
+                        <div class="company-l">
+                            <img src="./images/company_3.jpg" alt="">
+                        </div>
+                        <div class="company-c">
+                            <div class="company-title clearfix">
+                                <h3>大自然地板深圳总店</h3>
+                                <span>地板</span>
+                            </div>
+                            <div class="company-cen">
+                                <p>地址：深圳市龙岗区黄阁路家乐园建材商场2楼大自然旗舰店 </p>
+                            </div>
+                            <div class="company-btm">
+                                <span>买贵包赔</span>
+                                <span>免费停车</span>
+                                <span>到店有礼</span>
+                                <span>免费量房设计</span>
+                            </div>
+                        </div>
+                        <div class="company-y">
+                            <img src="./images/rating_3.png" alt=""><s>5</s>
+                        </div>
+                    </div>
+                    <div class="company-cont-te clearfix">
+                        <div class="company-l">
+                            <img src="./images/company_4.jpg" alt="">
+                        </div>
+                        <div class="company-c">
+                            <div class="company-title clearfix">
+                                <h3>佰怡家全屋定制龙岗店</h3>
+                                <span>全屋定制</span>
+                            </div>
+                            <div class="company-cen">
+                                <p>地址：后海大道乐安居家私区1-06佰怡家全屋定制 </p>
+                            </div>
+                            <div class="company-btm">
+                                <span>买贵包赔</span>
+                            </div>
+                        </div>
+                        <div class="company-y">
+                            <img src="./images/rating_3.png" alt=""><s>5</s>
+                        </div>
+                    </div>
+                    <div class="company-cont-te clearfix">
+                        <div class="company-l">
+                            <img src="./images/company_4.jpg" alt="">
+                        </div>
+                        <div class="company-c">
+                            <div class="company-title clearfix">
+                                <h3>佰怡家全屋定制南山店</h3>
+                                <span>全屋定制</span>
+                            </div>
+                            <div class="company-cen">
+                                <p>地址：后海大道乐安居家私区1-06佰怡家全屋定制</p>
+                            </div>
+                            <div class="company-btm">
+                                <span>买贵包赔</span>
+                            </div>
+                        </div>
+                        <div class="company-y">
+                            <img src="./images/rating_3.png" alt=""><s>5</s>
+                        </div>
+                    </div>
+                    <div class="company-cont-te clearfix">
+                        <div class="company-l">
+                            <img src="./images/company_5.jpg" alt="">
+                        </div>
+                        <div class="company-c">
+                            <div class="company-title clearfix">
+                                <h3>皇朝全屋定制辉煌店</h3>
+                                <span>全屋定制</span>
+                            </div>
+                            <div class="company-cen">
+                                <p>地址：公明街道根竹园西环大道辉煌万家装饰家居广场三楼A1皇朝定制+</p>
+                            </div>
+                            <div class="company-btm">
+                                <span>到店有礼</span>
+                                <span>免费停车</span>
+                                <span>免费量房设计</span>
+                                <span>买贵包赔</span>
+                            </div>
+                        </div>
+                        <div class="company-y">
+                            <img src="./images/rating_3.png" alt=""><s>5</s>
+                        </div>
+                    </div>
+                    <div class="company-cont-te clearfix">
+                        <div class="company-l">
+                            <img src="./images/company_6.jpg" alt="">
+                        </div>
+                        <div class="company-c">
+                            <div class="company-title clearfix">
+                                <h3>欧普照明(龙华香江家居千平旗舰店)</h3>
+                                <span>灯饰照明</span>
+                            </div>
+                            <div class="company-cen">
+                                <p>地址：龙华区清祥路1号香江家居4楼B022-028欧普照明旗舰店</p>
+                            </div>
+                            <div class="company-btm">
+                                <span>免费量房设计</span>
+                                <span>免费停车</span>
+                            </div>
+                        </div>
+                        <div class="company-y">
+                            <img src="./images/rating_3.png" alt=""><s>5</s>
+                        </div>
+                    </div>
+                    <div class="company-cont-te clearfix">
+                        <div class="company-l">
+                            <img src="./images/company_7.jpg" alt="">
+                        </div>
+                        <div class="company-c">
+                            <div class="company-title clearfix">
+                                <h3>迈森英伦瓷砖（南山店）</h3>
+                                <span>瓷砖</span>
+                            </div>
+                            <div class="company-cen">
+                                <p>地址：后海大道与创业路交汇处南山乐安居一楼102号</p>
+                            </div>
+                            <div class="company-btm">
+                                <span>免费量房设计</span>
+                            </div>
+                        </div>
+                        <div class="company-y">
+                            <img src="./images/rating_3.png" alt=""><s>5</s>
+                        </div>
+                    </div>
+                    <div class="company-cont-te clearfix">
+                        <div class="company-l">
+                            <img src="./images/company_8.jpg" alt="">
+                        </div>
+                        <div class="company-c">
+                            <div class="company-title clearfix">
+                                <h3>圣堡罗整体门窗</h3>
+                                <span>门窗</span>
+                            </div>
+                            <div class="company-cen">
+                                <p>地址：福田区益田南路皇庭世纪1-4层香江家居南区二楼圣堡罗专柜</p>
+                            </div>
+                            <div class="company-btm">
+                                <!-- <span>买贵包赔</span>
+                                <span>免费停车</span>
+                                <span>到店有礼</span>
+                                <span>免费量房设计</span> -->
+                            </div>
+                        </div>
+                        <div class="company-y">
+                            <img src="./images/rating_3.png" alt=""><s>5</s>
+                        </div>
+                    </div>
+                    <div class="company-cont-te clearfix">
+                        <div class="company-l">
+                            <img src="./images/company_9.jpg" alt="">
+                        </div>
+                        <div class="company-c">
+                            <div class="company-title clearfix">
+                                <h3>多乐士涂料（龙岗店）</h3>
+                                <span>油漆涂料</span>
+                            </div>
+                            <div class="company-cen">
+                                <p>地址：龙岗区布龙路塘园新村6巷1号1-2</p>
+                            </div>
+                            <div class="company-btm">
+                                <span>到店有礼</span>
+                            </div>
+                        </div>
+                        <div class="company-y">
+                            <img src="./images/rating_3.png" alt=""><s>5</s>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="company-right">
-                <div class="company-right-o">
-                    <img src="./images/company_y_tu.png" alt="">
-                    <ul>
-                        <li>
-                            <a href="#">
-                                <i></i>
-                                <img src="./images/company_y_logo1.jpg" alt="">
-                                <span>乐峰精装</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <i></i>
-                                <img src="./images/company_y_logo2.jpg" alt="">
-                                <span>深圳市乐杜鹃</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <i></i>
-                                <img src="./images/company_y_logo3.jpg" alt="">
-                                <span>弘之高装饰</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <i></i>
-                                <img src="./images/company_y_logo4.jpg" alt="">
-                                <span>橡树装饰</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <i></i>
-                                <img src="./images/company_y_logo5.jpg" alt="">
-                                <span>广田家装饰</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <i></i>
-                                <img src="./images/company_y_logo6.jpg" alt="">
-                                <span>恒泰兴装饰</span>
-                            </a>
-                        </li>
-                    </ul>
+                <!-- 分页导航 -->
+                <ul class="page clearfix">
+                    <li>
+                        <a href="javascript:;">1</a>
+                    </li>
+                    <li><a href="javascript:;">2</a></li>
+                    <li><a href="javascript:;">3</a></li>
+                    <li><a href="javascript:;">4</a></li>
+                    <li><a href="javascript:;">5</a></li>
+                    <li><a href="javascript:;">···</a></li>
+                    <li><a href="javascript:;">19</a></li>
+                    <li><a href="javascript:;">下一页 &gt;</a></li>
+                </ul>
+            </main>
+            <aside>
+                <img src="./images/aside_tu.jpg" alt="">
+                <div class="aside-btm">
+                    <img src="./images/s_ma.jpg" alt="">
                 </div>
-                <div class="company-right-t">
-                    <img src="./images/company_y1.png" alt="">
-                </div>
-                <div class="company-right-s">
-                    <a href="#">
-                        <img src="./images/company_y2.jpg" alt="">
-                    </a>
-                </div>
-            </div>
+            </aside>
         </div>
-    </main>
+    </div>
     <!-- 底部区域 -->
     <footer>
         <div class="di-l">
@@ -616,8 +684,8 @@
             <h3>微信公众号</h3>
         </div>
     </footer>
+    <script src="./lib/jquery-3.4.1.min.js"></script>
+    <script src="./js/rendering-index1.js"></script>
 </body>
-<script src="./lib/jquery-3.4.1.min.js"></script>
-<script src="./js/company.js"></script>
 
 </html>
